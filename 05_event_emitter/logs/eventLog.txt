@@ -1,0 +1,5 @@
+22-10-2023	17:55:47	375a33b4-7431-442d-b225-4f54c5917fa6	Log event emitted!
+22-10-2023	17/2:56:15	698a3514-87f2-4d47-9d4c-fb1753551f5c	Log event emitted!
+22-10-2023	1712:56:32	b8523389-0a70-4ff1-88ef-c27124d83db4	Log event emitted!
+22-10-2023	05:56:40	a595b858-ce9f-46db-80e3-4e5ae4a9bc97	Log event emitted!
+22-10-2023	17:57:01	93fea9df-09b7-44c6-8e9c-b78d02db0d44	Log event emitted!

@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+  border-radius: 50px;
+}
+
+.container {
+  padding: 1rem 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+p {
+  margin: 2rem 0;
+  text-align: justify;
+}
