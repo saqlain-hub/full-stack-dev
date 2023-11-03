@@ -1,27 +1,14 @@
 // common core modules
 const express = require("express");
 const app = express();
+
 const path = require("path");
-const { logger } = require("./middleware/logEvents");
 const PORT = process.env.PORT || 3500;
 
-// custome middleware logger
-app.use(logger);
-
-// built-in middleware to handle urlencoded data
-// in other words, form data:
-// 'content-type: application/x-www-form-urlencoded'
-app.use(express.urlencoded({ extended: false }));
-
-// built-in middle ware for json
-app.use(express.json());
-
-//serve static files
-app.use(express.static(path.join(__dirname, "/public")));
-
 app.get("^/$|/index(.html)?", (req, res) => {
+  // res.send("Hello World");
+  // res.sendFile("./views/index.html", { root: __dirname });
   res.sendFile(path.join(__dirname, "views", "index.html"));
-  console.log(req.url, req.method);
 });
 
 app.get("/new-page(.html)?", (req, res) => {
